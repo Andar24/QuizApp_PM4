@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <ellipse cx="160" cy="132" rx="136" ry="100" fill="#7B6CF0" fill-opacity="0.13"/>
+
+  <!-- gagang piala -->
+  <path d="M122 82h-18c-10 0-14 8-12 16 3 14 16 22 30 22" fill="none" stroke="#F4A93B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M198 82h18c10 0 14 8 12 16-3 14-16 22-30 22" fill="none" stroke="#F4A93B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- piala -->
+  <path d="M120 68h80v42c0 26-18 44-40 44s-40-18-40-44z" fill="#FFC857"/>
+  <path d="M160 68h40v42c0 26-18 44-40 44z" fill="#F4A93B" fill-opacity="0.45"/>
+  <path d="M132 80v30c0 12 5 22 12 29" fill="none" stroke="#FFF3CF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(160 108) scale(20)" fill="#FFFFFF" fill-opacity="0.95" stroke="#FFFFFF" stroke-width="0.12" stroke-linejoin="round"/>
+
+  <!-- batang & alas -->
+  <rect x="150" y="152" width="20" height="24" fill="#F4A93B"/>
+  <rect x="136" y="172" width="48" height="12" rx="4" fill="#8A7CF0"/>
+  <rect x="122" y="182" width="76" height="16" rx="7" fill="#5B4BDB"/>
+
+  <!-- kilau -->
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(84 62) scale(11)" fill="#FFC857" stroke="#FFC857" stroke-width="0.14" stroke-linejoin="round"/>
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(240 54) scale(13)" fill="#8A7CF0" stroke="#8A7CF0" stroke-width="0.14" stroke-linejoin="round"/>
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(260 140) scale(8)" fill="#FFC857" stroke="#FFC857" stroke-width="0.14" stroke-linejoin="round"/>
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(64 150) scale(7)" fill="#8A7CF0" stroke="#8A7CF0" stroke-width="0.14" stroke-linejoin="round"/>
+  <rect x="106" y="30" width="10" height="5" rx="2" fill="#FF9DB5" transform="rotate(25 111 32)"/>
+  <rect x="214" y="30" width="5" height="11" rx="2" fill="#7ED9B5" transform="rotate(-20 216 35)"/>
+  <circle cx="58" cy="100" r="4" fill="#FFC857"/>
+  <circle cx="276" cy="94" r="4.500" fill="#FF9DB5"/>
+  <circle cx="190" cy="40" r="3.500" fill="#FFC857"/>
+</svg>

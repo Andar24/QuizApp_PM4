@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <!-- latar lembut -->
+  <ellipse cx="160" cy="130" rx="136" ry="100" fill="#7B6CF0" fill-opacity="0.13"/>
+
+  <!-- lembar soal -->
+  <rect x="86" y="46" width="148" height="168" rx="20" fill="#4B3BC4" fill-opacity="0.14" transform="translate(6 8)"/>
+  <rect x="86" y="46" width="148" height="168" rx="20" fill="#FFFFFF" stroke="#C9C2FF" stroke-width="2"/>
+  <rect x="104" y="62" width="70" height="10" rx="5" fill="#5B4BDB"/>
+  <rect x="104" y="80" width="112" height="7" rx="3.500" fill="#C9C2FF"/>
+
+  <!-- opsi 1 -->
+  <rect x="104" y="102" width="112" height="28" rx="10" fill="#F1EEFF"/>
+  <circle cx="120" cy="116" r="7" fill="#C9C2FF"/>
+  <rect x="134" y="112" width="66" height="8" rx="4" fill="#C9C2FF"/>
+
+  <!-- opsi 2 (terpilih) -->
+  <rect x="104" y="136" width="112" height="28" rx="10" fill="#5B4BDB"/>
+  <circle cx="120" cy="150" r="7" fill="#FFFFFF"/>
+  <path d="M116.500 150l2.600 2.600 4.600-5" fill="none" stroke="#5B4BDB" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="134" y="146" width="66" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.85"/>
+
+  <!-- opsi 3 -->
+  <rect x="104" y="170" width="112" height="28" rx="10" fill="#F1EEFF"/>
+  <circle cx="120" cy="184" r="7" fill="#C9C2FF"/>
+  <rect x="134" y="180" width="52" height="8" rx="4" fill="#C9C2FF"/>
+
+  <!-- balon tanya -->
+  <circle cx="252" cy="64" r="27" fill="#5B4BDB"/>
+  <path d="M238 84l-8 17 24-12z" fill="#5B4BDB"/>
+  <path d="M244 57c0-5 3.500-8 7.500-8s7.500 3 7.500 7.500c0 3-1.800 4.600-3.600 5.900-1.500 1.100-2.400 2-2.400 4"
+        fill="none" stroke="#FFFFFF" stroke-width="4.500" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="253" cy="76" r="2.800" fill="#FFFFFF"/>
+
+  <!-- bohlam -->
+  <g transform="translate(22 52) scale(1.100)">
+    <path d="M24 5C16 5 10 11 10 18.500c0 5 2.600 8.300 5.200 11 1.400 1.500 2.300 3 2.300 5V36h13v-1.500c0-2 .9-3.500 2.300-5C35.400 26.800 38 23.500 38 18.500 38 11 32 5 24 5z" fill="#FFC857"/>
+    <path d="M17 18c.6-4 3.600-6.600 7-7" fill="none" stroke="#FFF3CF" stroke-width="3" stroke-linecap="round"/>
+    <rect x="18" y="37.500" width="12" height="4" rx="2" fill="#8A7CF0"/>
+    <rect x="20" y="42.500" width="8" height="3.500" rx="1.750" fill="#5B4BDB"/>
+  </g>
+
+  <!-- kilau & titik -->
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(280 134) scale(10)" fill="#FFC857" stroke="#FFC857" stroke-width="0.14" stroke-linejoin="round"/>
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(52 160) scale(8)" fill="#8A7CF0" stroke="#8A7CF0" stroke-width="0.14" stroke-linejoin="round"/>
+  <path d="M0,-1 L0.2245,-0.309 L0.951,-0.309 L0.363,0.118 L0.588,0.809 L0,0.382 L-0.588,0.809 L-0.363,0.118 L-0.951,-0.309 L-0.2245,-0.309 Z"
+        transform="translate(264 190) scale(7)" fill="#FFC857" stroke="#FFC857" stroke-width="0.14" stroke-linejoin="round"/>
+  <circle cx="62" cy="204" r="5" fill="#FFC857"/>
+  <circle cx="288" cy="214" r="4" fill="#8A7CF0"/>
+  <circle cx="40" cy="116" r="3.500" fill="#8A7CF0"/>
+</svg>

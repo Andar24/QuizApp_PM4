@@ -1,0 +1,47 @@
+name: quizapp
+description: "QuizKu - aplikasi kuis pilihan ganda dengan Flutter untuk tugas UTS."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management (ChangeNotifier) yang ditempatkan di atas MaterialApp
+  provider: ^6.1.2
+  # Menampilkan aset SVG (ikon & ilustrasi buatan sendiri)
+  flutter_svg: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Aset vektor buatan sendiri (lihat credit di README)
+  assets:
+    - assets/icons/
+    - assets/illustrations/
+
+  fonts:
+    # Font isi: Poppins (SIL OFL, lihat assets/fonts/OFL.txt)
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    # Font judul/brand: Pacifico (SIL OFL, lihat assets/fonts/OFL-Pacifico.txt)
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
